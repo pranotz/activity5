@@ -18,6 +18,6 @@ pipeline {
 	                 }}
 		stage('Deployment'){
 		   steps {
-		sh 'cp target/flipkart.war /home/pranotz/Documents/Devops_software/apache-tomcat-9.0.82/webapps'
+		sh 'cp target/activity5.war /home/pranotz/Documents/Devops_software/apache-tomcat-9.0.82/webapps'
 			}}	
 }}
